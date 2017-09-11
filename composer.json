@@ -1,0 +1,34 @@
+{
+  "name": "symfonyx/clickhouse-service-provider",
+  "description": "Clickhouse service provider for Silex",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "silex",
+    "clickhouse",
+    "php-clickhouse"
+  ],
+  "authors": [
+    {
+      "name": "Alex Zet",
+      "email": "zetdev@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.0",
+    "silex/silex": "~2.0",
+    "smi2/phpclickhouse": "^0.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "Symfonyx\\Silex\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
