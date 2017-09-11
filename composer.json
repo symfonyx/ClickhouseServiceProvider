@@ -14,7 +14,7 @@
       "email": "zetdev@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "1.x-dev",
   "prefer-stable": true,
   "require": {
     "php": "^7.0",

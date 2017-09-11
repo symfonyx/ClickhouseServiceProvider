@@ -29,8 +29,6 @@ $app['clickhouse.params'] = [
     'connect_timeout' => 5
 ];
 $app->register(new ClickhouseServiceProvider('clickhouse'));
-
-$app['clickhouse']->ping();
 ```
 
 ## License
